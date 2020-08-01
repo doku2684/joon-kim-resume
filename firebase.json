@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "joon_kim_resume_dev/build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
